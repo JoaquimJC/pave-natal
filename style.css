@@ -1,0 +1,87 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("https://img.freepik.com/vetores-premium/fundo-azul-dos-flocos-de-neve-de-natal_8071-2092.jpg");
+    background-size: cover;
+}
+
+header{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 1%;
+    font-family:'agbalumo';
+    font-size: 25px;
+    
+}
+
+h1{
+    text-shadow: 2px 2px rgb(177, 23, 23);
+}
+
+.main{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    margin: 3%;
+
+}
+
+.ingred, .modo{
+    background-color: aliceblue;
+    width: 30%;
+    padding: 1% 2%;
+    color: green;
+
+}
+
+#image
+{
+    width: 400px;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 3%;
+    color: rgb(255, 0, 0);
+
+}
+
+h4{
+    font-size: 20px;
+    line-height: 1.5;
+
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+
+}
+
+button{
+    background-color: rgba(255, 0, 0, 0);
+    border-color: rgba(240, 248, 255, 0);
+    cursor: pointer;
+}
+
+.music-icon{
+    width: 70px;
+}
+
+.music{
+    background-color: rgb(14, 100, 71);
+    padding: 5%;
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 100px;
+}
